@@ -52,8 +52,10 @@ LCD_LINE_2 = 0xC0 # LCD RAM address for the 2nd line
 E_PULSE = 0.00005
 E_DELAY = 0.00005
 
+GPIO.cleanup()
+GPIO.setwarnings(False)
 def main():
-  GPIO.setwarnings(False)
+  
   # Main program block
 
   # Initialise display
