@@ -53,6 +53,7 @@ E_PULSE = 0.00005
 E_DELAY = 0.00005
 
 def main():
+  GPIO.setwarnings(False)
   # Main program block
 
   # Initialise display
